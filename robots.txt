@@ -1,0 +1,27 @@
+# Bloquer les robots d'explorer certaines sections privées
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /user-profile/
+
+# Empêcher l'indexation des pages de recherche avec paramètres
+Disallow: /search?
+
+# Empêcher l'indexation des pages de tests (par exemple, page de dev)
+Disallow: /test/
+
+# Bloquer certains robots d'explorer tout le site (exemple : un bot spécifique)
+User-agent: BadBot
+Disallow: /
+
+# Autoriser Googlebot à tout explorer mais avec un délai d'exploration
+User-agent: Googlebot
+Disallow: 
+
+# Empêcher les robots d'explorer les fichiers statiques qui ne sont pas importants pour le SEO
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+# Lien vers le sitemap
+Sitemap: https://exotipet.fr/sitemap.xml

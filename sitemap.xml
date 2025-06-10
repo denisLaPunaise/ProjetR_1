@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.exotipet.fr/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pages Principales -->
+
+  <url>
+    <loc>https://www.exotipet.fr/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/articles.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/a-propos.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/recommandations.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Sous-Pages -->
+
+  <url>
+    <loc>https://www.exotipet.fr/articles/reptiles-amphibiens</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/articles/oiseaux-exotiques</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/articles/mammiferes-rares</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/articles/aquatiques-invertebres</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/articles/guides-pratiques</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Articles -->
+  <url>
+    <loc>https://www.exotipet.fr/aquatiques-invertebres/escargot-geant-dafrique-danger-ou-pas.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/aquatiques-invertebres/installation-aquarium-crevettes-sulawesi.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/aquatiques-invertebres/poulpe-domestique-possible-en-2025.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/guides-pratiques/assurance-animaux-exotiques-que-couvre-t-elle.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/guides-pratiques/comment-voyager-avec-un-animal-exotique-legalement.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/guides-pratiques/quelle-lampe-uv-choisir-pour-reptile-tropical.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/guides-pratiques/top-5-accessoires-indispensables-pour-axolotl.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/mammiferes-rares/chinchilla-cout-et-entretien-pour-debutant.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/mammiferes-rares/furet-vs-rat-domestique-lequel-choisir.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/mammiferes-rares/ou-acheter-un-herisson-pygmee-legalement.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/mammiferes-rares/quels-animaux-exotiques-sont-autorises-en-france.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/oiseaux-exotiques/alimentation-naturelle-pour-loriquet.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/oiseaux-exotiques/cacatoes-blanc-ou-rosalbin-lequel-choisir.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/oiseaux-exotiques/meilleure-cage-pour-toui-celeste-en-appartement.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/oiseaux-exotiques/perroquet-qui-parle-le-plus-facilement-a-elever.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/reptiles-amphibiens/comment-nourrir-un-cameleon-panthere-en-captivite.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/reptiles-amphibiens/comment-soccuper-dun-axolotl-en-aquarium.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/reptiles-amphibiens/meilleur-terrarium-pour-gecko-leopard-debutant.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/reptiles-amphibiens/prix-dun-dragon-barbu-et-entretien-mensuel.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.exotipet.fr/reptiles-amphibiens/serpent-domestique-non-venimeux-facile-a-elever.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
