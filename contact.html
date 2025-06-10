@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ExotiPets</title>
+    <meta name="description" content="Contactez l'équipe ExotiPets pour toute question sur les animaux exotiques, suggestion d'article ou proposition de partenariat.">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Emplacement pour Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">Exoti<span>Pets</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="recommandations.html">Recommandations</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Contact</h1>
+            
+            <section class="contact-section">
+                <div class="contact-intro mb-lg">
+                    <p>Vous avez des questions sur les animaux exotiques ? Vous souhaitez nous suggérer un sujet d'article ? Vous êtes intéressé par un partenariat ? N'hésitez pas à nous contacter via le formulaire ci-dessous ou directement par email.</p>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form" action="/submit-form" method="post">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Adresse email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Choisissez un sujet</option>
+                                <option value="question">Question sur un animal exotique</option>
+                                <option value="suggestion">Suggestion d'article</option>
+                                <option value="partnership">Proposition de partenariat</option>
+                                <option value="correction">Signaler une erreur</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Votre message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">J'accepte que mes données soient traitées conformément à la <a href="politique-de-confidentialite.html">politique de confidentialité</a> du site *</label>
+                        </div>
+                        
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="other-contact-methods mb-xl">
+                <h2>Autres moyens de nous contacter</h2>
+                
+                <div class="contact-methods-grid">
+                    <div class="contact-method">
+                        <h3><i class="fas fa-envelope"></i> Email direct</h3>
+                        <p>Pour toute question ou demande, vous pouvez nous écrire directement à : <a href="mailto:contact@exotipets.fr">contact@exotipets.fr</a></p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <h3><i class="fas fa-share-alt"></i> Réseaux sociaux</h3>
+                        <p>Suivez-nous et contactez-nous sur nos réseaux sociaux :</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="partnerships mb-xl">
+                <h2>Partenariats et collaborations</h2>
+                <p>Vous êtes une marque, un éleveur professionnel ou un vétérinaire spécialisé en NAC ? Nous sommes ouverts aux collaborations qui apportent une réelle valeur à notre communauté.</p>
+                
+                <div class="partnership-types mb-md">
+                    <h3>Types de partenariats possibles :</h3>
+                    <ul>
+                        <li>Tests et revues de produits</li>
+                        <li>Articles sponsorisés (clairement identifiés comme tels)</li>
+                        <li>Interviews d'experts</li>
+                        <li>Webinaires et événements en ligne</li>
+                    </ul>
+                </div>
+                
+                <p>Pour discuter d'un partenariat potentiel, veuillez utiliser le formulaire ci-dessus en sélectionnant "Proposition de partenariat" comme sujet ou écrivez-nous directement à <a href="mailto:partenariats@exotipets.fr">partenariats@exotipets.fr</a>.</p>
+            </section>
+
+            <section class="contact-info mb-xl">
+                <div class="info-card">
+                    <h3><i class="fas fa-exclamation-circle"></i> Signaler un problème</h3>
+                    <p>Si vous constatez une erreur dans nos articles ou rencontrez un problème technique sur notre site, merci de nous le signaler. Nous nous efforçons d'offrir des informations précises et une expérience utilisateur optimale.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-clock"></i> Délai de réponse</h3>
+                    <p>Notre équipe s'engage à répondre à toutes les demandes dans un délai de 48 heures ouvrées. Pour les questions urgentes concernant la santé d'un animal, nous vous recommandons de contacter directement un vétérinaire spécialisé en NAC.</p>
+                </div>
+            </section>
+
+            <!-- AdSense Banner -->
+            <div class="ad-container footer-ad">
+                <!-- Emplacement pour Google AdSense -->
+                <div style="height: 90px; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #999;">
+                    Espace publicitaire AdSense
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>ExotiPets</h3>
+                    <p>Votre référence en matière d'animaux de compagnie exotiques et rares. Conseils d'experts, guides pratiques et recommandations de produits.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Catégories</h3>
+                    <ul class="footer-links">
+                        <li><a href="articles/reptiles-amphibiens/">Reptiles & Amphibiens</a></li>
+                        <li><a href="articles/oiseaux-exotiques/">Oiseaux Exotiques</a></li>
+                        <li><a href="articles/mammiferes-rares/">Mammifères Rares</a></li>
+                        <li><a href="articles/aquatiques-invertebres/">Aquatiques & Invertébrés</a></li>
+                        <li><a href="articles/guides-pratiques/">Guides Pratiques</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Utiles</h3>
+                    <ul class="footer-links">
+                        <li><a href="a-propos.html">À propos</a></li>
+                        <li><a href="recommandations.html">Recommandations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="politique-de-confidentialite.html">Politique de Confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ExotiPets. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-text">
+            <p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies pour vous proposer des contenus et services adaptés à vos centres d'intérêt et réaliser des statistiques de visites.</p>
+        </div>
+        <div class="cookie-buttons">
+            <button class="btn" id="acceptCookies">Accepter</button>
+            <button class="btn btn-secondary" id="cookieSettings">Paramétrer</button>
+            <a href="politique-de-confidentialite.html" class="btn btn-secondary">En savoir plus</a>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
